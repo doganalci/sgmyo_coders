@@ -1,0 +1,8 @@
+SELECT 
+sum(UnitPrice * Quantity) AS ISILAY
+  FROM [deneme].[dbo].[Order Details]
+
+
+SELECT 
+COUNT(UnitPrice * Quantity) AS ISILAY
+  FROM [deneme].[dbo].[Order Details]
