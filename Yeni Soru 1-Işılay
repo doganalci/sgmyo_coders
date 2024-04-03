@@ -1,3 +1,8 @@
 Brazil’de bulunan müşterilerin Şirket Adı, TemsilciAdi, Adres, Şehir, Ülke bilgileri
 
-SELECT [CompanyName], [ContactName], [Address], [City], [Country] FROM [deneme].[dbo.].[Suppliers]
+SELECT 
+   
+      [City], [CompanyName], [ContactName], [Address], [Country]
+    
+  FROM [deneme].[dbo].[Suppliers]
+  WHERE Country='Brazil'
