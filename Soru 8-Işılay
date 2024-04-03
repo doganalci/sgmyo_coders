@@ -1,0 +1,7 @@
+SELECT 
+   
+      [CompanyName],
+	  [Phone]
+    
+  FROM [deneme].[dbo].[Customers]
+    WHERE [CompanyName] LIKE '%Restaurant%'
