@@ -1,0 +1,6 @@
+SELECT 
+   
+      [ProductName]
+    
+  FROM [deneme].[dbo].[Products by Category]
+      WHERE ProductName LIKE 'C%'
