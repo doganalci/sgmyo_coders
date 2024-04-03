@@ -1,0 +1,6 @@
+SELECT 
+   
+      [Country], [City], [CompanyName], [ContactName], [Address], [Fax]
+    
+  FROM [deneme].[dbo].[Customers]
+      WHERE Fax IS NULL
