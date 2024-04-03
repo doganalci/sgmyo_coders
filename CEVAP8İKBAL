@@ -1,0 +1,4 @@
+SELECT 
+       [CompanyName]
+      ,[Phone]
+  FROM [yusuf].[dbo].[Customers] WHERE CompanyName LIKE '%RESTAURANT%'
