@@ -1,0 +1,6 @@
+SELECT 
+   
+      [Country], [City], [CompanyName], [ContactName], [Address]
+    
+  FROM [deneme].[dbo].[Suppliers]
+      WHERE Country!='Brazil'
