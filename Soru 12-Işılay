@@ -6,3 +6,13 @@ sum(UnitPrice * Quantity) AS ISILAY
 SELECT 
 COUNT(UnitPrice * Quantity) AS ISILAY
   FROM [deneme].[dbo].[Order Details]
+
+SELECT 
+[ContactName],
+[City]
+  FROM [deneme].[dbo].[Customers]
+  where City in ('London', 'Paris')
+
+SELECT 
+count (DISTINCT Country)
+  FROM [deneme].[dbo].[Customers]
