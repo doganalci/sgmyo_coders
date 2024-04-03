@@ -1,6 +1,7 @@
 SELECT 
    
-      [ProductName]
+      [ProductName],
+	  [UnitPrice]
     
-  FROM [deneme].[dbo].[Products by Category]
+  FROM [deneme].[dbo].[Products]
       WHERE ProductName LIKE 'C%'
